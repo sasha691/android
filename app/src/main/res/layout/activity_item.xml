@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/light_grey"
+    tools:context=".ItemActivity">
+
+    <TextView
+        android:id="@+id/item_list_title_one"
+        android:paddingHorizontal="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="10dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/inter_bold"
+        android:textSize="30sp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/item_list_text"
+        android:layout_width="match_parent"
+        android:textSize="17sp"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="10dp"
+        android:fontFamily="@font/inter"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <Button
+        android:id="@+id/btn_buy"
+        android:layout_width="200dp"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/orange"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_buy" />
+
+</LinearLayout>

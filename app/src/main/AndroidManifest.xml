@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <uses-permission
         android:name="android.permission.READ_EXTERNAL_STORAGE"
@@ -16,6 +17,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyMagazun"
         tools:targetApi="31">
+        <activity
+            android:name=".ItemActivity"
+            android:exported="false" />
         <activity
             android:name=".ItemsActivity"
             android:exported="false" />
@@ -35,6 +39,12 @@
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
+        <meta-data
+            android:name="com.razorpay.ApiKey"
+            android:value="rzp_test_YCjCFQIB4i6u9B" />
+        <meta-data
+            android:name="com.google.gms.wallet.api.enabled"
+            android:value="true" />
     </application>
 
 </manifest>
