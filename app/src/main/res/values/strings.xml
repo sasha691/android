@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">My magazun</string>
+    <string name="name">Введіть логін</string>
+    <string name="password">Введіть пароль</string>
+    <string name="email">Введіть email</string>
+    <string name="create_account">Створіть акаунт</string>
+    <string name="btn_login">Створити акаунт</string>
+    <string name="authenticate">Вхід у акаунт</string>
+    <string name="btn_authenticate">Увійти</string>
+    <string name="home_title">Товари</string>
+</resources>
