@@ -8,4 +8,5 @@
     <string name="authenticate">Вхід у акаунт</string>
     <string name="btn_authenticate">Увійти</string>
     <string name="home_title">Товари</string>
+    <string name="item_list_button">Переглянути</string>
 </resources>
